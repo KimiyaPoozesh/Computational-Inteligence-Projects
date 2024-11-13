@@ -42,6 +42,26 @@ This project focuses on a two-stage classification process using the Random Fore
 
 This project highlights the benefits of a two-stage classification approach and investigates the influence of cross-domain data on model performance.
 
+# Project 3 - MLP-SVM Feature Selection and Availability Score Prediction
+
+This project combines a Multi-Layer Perceptron (MLP) neural network with feature selection techniques to determine the best features for predicting an availability score using the Support Vector Machine (SVM) algorithm. The goal is to optimize the MLP network to find the best weights and features, then use the SVM algorithm to predict the availability score based on the selected features and the amount of penalty applied.
+
+## Project Overview
+
+1. **MLP Network**: 
+   - Train an MLP model to learn the weights of the input features.
+   - The MLP is trained to capture the relationship between the input features and the output variable (availability score).
+
+2. **Feature Selection**: 
+   - Use feature selection methods to identify the most relevant features for the task.
+   - The aim is to reduce the dimensionality and improve the prediction performance by selecting the most informative features.
+
+3. **SVM for Availability Score**: 
+   - After selecting the best features, train an SVM model to predict the availability score.
+   - The SVM model uses the selected features and the penalty (regularization) parameter to make predictions.
+   
+4. **Penalty (C parameter)**: 
+   - Adjust the penalty term in the SVM algorithm to control the trade-off between achieving a low error on the training data and maintaining a simple model to avoid overfitting.
 
 
 A report of each phase is included in the Report folder
